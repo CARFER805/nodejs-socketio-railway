@@ -1,3 +1,5 @@
-entrypoint=my-server
-language=node
-build=npm install
+[entrypoint]
+cd my-server
+npm install
+npm start
+
