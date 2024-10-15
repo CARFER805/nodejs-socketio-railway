@@ -1,5 +1,0 @@
-[entrypoint]
-cd my-server
-npm install
-npm start
-
