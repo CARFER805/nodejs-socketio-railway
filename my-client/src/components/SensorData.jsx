@@ -6,7 +6,7 @@ const SensorData = () => {
 
   useEffect(() => {
     // Conectarse al backend usando Socket.IO
-    const socket = io('http://localhost:3001');
+    const socket = io('nodejs-socketio-railway-production.up.railway.app');
 
     // Escuchar los datos de sensor enviados desde el backend
     socket.on('sensorData', (newData) => {
